@@ -1,0 +1,25 @@
+.navigation ul,
+.navigation li {
+  display: contents;
+}
+
+.navigation {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.navigation a {
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background: rgb(102, 142, 167);
+  color: white;
+  align-self: center;
+}
+
+.navigation a.active {
+  background: rgba(98, 157, 202, 0.589);
+}

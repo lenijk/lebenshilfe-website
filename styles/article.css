@@ -1,0 +1,15 @@
+.article-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 20px 40px;
+}
+
+.article-content p:first-child {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 464px) {
+  .article:nth-child(even) .article-content > :first-child {
+    order: 1;
+  }
+}

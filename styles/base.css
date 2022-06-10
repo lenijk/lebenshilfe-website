@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  gap: 40px;
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 12px;
+
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
